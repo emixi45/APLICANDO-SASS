@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titulos-principales{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'letraMenu';
+    padding-top: 100px;
+    @media only screen and (max-width: 480px) and (min-width: 281px) and (orientation:portrait) {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'letraMenu';
+    padding-top: 10px;
+    }
+
+    
+}
+.textoindex{
+    text-align: center;
+    padding: 0 0 2rem 0 ;
+    font-family: 'lorem';
+}
+
